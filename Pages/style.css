@@ -1,0 +1,141 @@
+body {
+    background-color: gainsboro;
+}
+
+ul.navbar-nav a:hover {
+    background-color: lightgray !important;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+.navbar {
+    padding: 0.5rem 2rem;
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-left: 5rem;
+    background-color: lightseagreen;
+    font-family: -webkit-body;
+}
+
+.box {
+    margin-top: 1em;
+    margin-bottom: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+}
+
+.comparisonBox {
+    margin-top: -2em;
+    margin-bottom: -2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.imgComparison {
+    width: 100%;
+}
+
+.summaryContainer {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.title {
+    margin-top: 2em;
+    font-family: -webkit-body;
+    color: lightseagreen;
+}
+
+#SummaryContent {
+    width:100%;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:1%;
+	position:relative;
+	text-align:left;
+    line-height: 150%;
+    
+}
+
+#ImgTemp {
+    height: 160px; 
+    /* width: 160px; */
+    padding-right: 1em; 
+    float: left; 
+    margin-top: 0.7em;
+    
+}
+
+.expositoryText {
+    margin: 0.5em;
+    font-family: sans-serif;
+    color: darkslategray; 
+}
+
+.visualizationsContainer {
+    float: right;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imgWidth100 {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Hide hr on medium and large screens. */
+.comparisonHR {
+    visibility: hidden;
+}
+
+.visualContent {
+
+}
+
+.selectBorder {
+    border-color: lightseagreen;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+iframe[seamless] {
+    border: none;
+}
+
+tbody tr:nth-child(odd) {
+    background: gainsboro;
+}
+
+@media (max-width: 768px) {
+    .summaryContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .comparisonHR {
+        visibility: visible; 
+    }
+
+    .comparisonBox {
+        margin-bottom: 0em;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        background-color: lightseagreen;
+    }
+}
+
